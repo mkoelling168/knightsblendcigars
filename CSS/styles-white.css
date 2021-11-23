@@ -1,0 +1,78 @@
+body {
+  margin: auto 3%;
+}
+
+h1 {
+  color: #BF9000;
+  font-family: 'Montagu Slab', serif;
+  font-size: 7rem;
+  text-align: center;
+}
+
+h2 {
+  color: #BF9000;
+  font-family: 'Montagu Slab', serif;
+  font-size: 5.5rem;
+  text-align: center;
+}
+
+h3 {
+  color: #BF9000;
+}
+
+p {
+  color: #bf9000;
+  font-size: 1.5rem;
+}
+
+#content {
+  padding: 3% 3%;
+}
+
+.navbar-logo {
+  max-width: 100px;
+  height: auto;
+}
+
+#dl {
+  padding: 2%;
+}
+
+#priory-select {
+  text-align: center;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  border: solid;
+  border-color: #bf9000;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  text-align: left;
+  margin: 15px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.btn:hover {
+  background-color: #FFC000;
+  color: black;
+}
+
+.container-fluid {
+  padding: 3% 3%;
+}
+
+img {
+  width: auto;
+}
+
+header{
+  background:url("../images/smoke.jpg");
+  height: 50vh;
+  margin-bottom: 10rem;
+  background-size: cover;
+}

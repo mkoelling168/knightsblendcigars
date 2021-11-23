@@ -1,0 +1,107 @@
+body {
+  background: black;
+  margin: 0
+}
+
+h1 {
+  color: #BF9000;
+  font-family: 'Montagu Slab', serif;
+  font-size: 8rem;
+  text-align: center;
+}
+
+h2 {
+  color: #BF9000;
+  font-family: 'Montagu Slab', serif;
+  font-size: 6rem;
+  text-align: center;
+  top: 10;
+}
+
+h3{
+color: #BF9000;
+}
+
+p {
+  color: #bf9000;
+  font-size: 1.5rem;
+}
+
+#content {
+  padding: 3% 3%;
+}
+
+
+#navbar-section {
+  background-color: black;
+}
+
+.navbar-logo {
+  max-width: 100px;
+  height: auto;
+}
+
+#dl {
+  background-color: black;
+  padding: 5% 5% 30% 5%;
+}
+
+#priory-select {
+  text-align: center;
+}
+
+
+.btn {
+  display: block;
+  width: 100%;
+  border: solid;
+  border-color: #FFC000;
+  background-color: black;
+  color: #bf9000;
+  cursor: pointer;
+  text-align: left;
+  margin: 15px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.btn:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.container-fluid {
+  padding: 0% 3%;
+}
+
+img{
+  width: auto;
+}
+
+header{
+  height: 50vh;
+  margin-bottom: 5rem;
+  background-size: cover;
+}
+
+video {
+    min-width: 100vw;
+    max-height: 50vh;
+    object-fit: cover;
+}
+
+.overlay {
+    max-height: 80vh;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    vertical-align: center;
+    color: #fff;
+}
