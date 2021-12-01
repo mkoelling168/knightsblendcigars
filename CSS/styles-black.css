@@ -6,16 +6,15 @@ body {
 h1 {
   color: #BF9000;
   font-family: 'Montagu Slab', serif;
-  font-size: 9rem;
-  text-align: center;
+  font-size: 8rem;
 }
 
 h2 {
   color: #BF9000;
   font-family: 'Montagu Slab', serif;
   font-size: 7rem;
-  text-align: center;
   top: 10;
+  /* display: inline; */
 }
 
 h3 {
@@ -37,7 +36,7 @@ p {
   font-size: 1.5rem;
 }
 
-#content {
+.content {
   padding: 3% 3%;
 }
 
@@ -52,11 +51,13 @@ p {
 
 #dl {
   background-color: black;
-  padding: 5% 5% 30% 5%;
+  padding: 1% 5% 30% 5%;
 }
 
 #priory-select {
   text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 #rituals {
@@ -89,19 +90,20 @@ p {
 }
 
 header {
-  height: 50vh;
-  margin-bottom: 5rem;
-  background-size: cover;
+  height: 90vh;
+  /* margin-bottom: 5rem; */
+  /* background-size: cover; */
+  /* margin-bottom: 1rem; */
 }
 
 video {
   min-width: 100vw;
-  max-height: 50vh;
+  max-height: 80vh;
   object-fit: cover;
 }
 
 .overlay {
-  max-height: 80vh;
+  max-height: 100vh;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -115,14 +117,76 @@ video {
   color: #fff;
 }
 
+.title {
+  text-align: center;
+  /* padding-top: 300px; */
+}
+
 #cigarflat {
   height: auto;
   width: auto;
   margin: auto;
+  border-radius: 50px;
 }
 
 #cigarwhiskey {
   height: auto;
   max-width: 100%;
   padding-top: 50px;
+  border-radius: 10px;
+}
+
+/* #hero {
+  display: inline;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+*/
+.heroimage {
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+#ccc {
+  text-align: center;
+}
+
+video {
+  height: auto;
+  max-width: 100%;
+}
+
+#cigarrolled {
+  border-radius: 10px;
+  border-style: none;
+}
+
+#cccontent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.photorow {
+  padding: 5px 0 0 5px;
+  /* background-color: green; */
+  position: relative;
+  overflow: hidden;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 40px;
+}
+
+.imagebox {
+  margin: auto;
+  float: center;
+  width: 250px;
+  height: auto;
+  box-shadow: 0 0 8px 8px black;
+  border-radius: 10px;
+  border-width: thick;
 }
