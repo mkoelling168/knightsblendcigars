@@ -6,25 +6,26 @@ body {
 h1 {
   color: #BF9000;
   font-family: 'Montagu Slab', serif;
-  font-size: 8rem;
+  /* font-size: 8rem; */
+  font-size: 8vw;
 }
 
 h2 {
   color: #BF9000;
   font-family: 'Montagu Slab', serif;
-  font-size: 7rem;
+  font-size: 7vw;
   top: 10;
   /* display: inline; */
 }
 
 h3 {
   color: #BF9000;
-  font-size: 4rem;
+  font-size: 4vw;
 }
 
 h4 {
   color: #BF9000;
-  font-size: 2rem;
+  font-size: 2vw;
 }
 
 h5 {
@@ -40,13 +41,9 @@ p {
   padding: 3% 3%;
 }
 
-.row{
-
-}
 
 #navbar-section {
   background-color: black;
-  z-index: 9999;
 }
 
 .navbar{
@@ -144,18 +141,18 @@ video {
   border-radius: 10px;
 }
 
-/* #hero {
-  display: inline;
-  width: 100%;
-  height: auto;
-  text-align: center;
-}
-
-*/
 .heroimage {
-  display: block;
+  /* display: block; */
   margin-left: auto;
   margin-right: auto;
+  width: auto;
+  height: auto;
+}
+
+@media (max-width:900px) {
+  .heroimage {
+    display: none;
+  }
 }
 
 #ccc {
