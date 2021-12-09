@@ -40,8 +40,17 @@ p {
   padding: 3% 3%;
 }
 
+.row{
+
+}
+
 #navbar-section {
   background-color: black;
+  z-index: 9999;
+}
+
+.navbar{
+  z-index: 2000;
 }
 
 .navbar-logo {
@@ -105,7 +114,7 @@ video {
 .overlay {
   max-height: 100vh;
   position: absolute;
-  top: 0;
+  top: 1px;
   bottom: 0;
   left: 0;
   right: 0;
@@ -119,7 +128,6 @@ video {
 
 .title {
   text-align: center;
-  /* padding-top: 300px; */
 }
 
 #cigarflat {
@@ -146,8 +154,8 @@ video {
 */
 .heroimage {
   display: block;
-   margin-left: auto;
-   margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #ccc {
