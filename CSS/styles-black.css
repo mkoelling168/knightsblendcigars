@@ -20,12 +20,12 @@ h2 {
 
 h3 {
   color: #BF9000;
-  font-size: 4vw;
+  font-size: 5vw;
 }
 
 h4 {
   color: #BF9000;
-  font-size: 2vw;
+  font-size: 3vw;
 }
 
 h5 {
@@ -34,7 +34,7 @@ h5 {
 
 p {
   color: grey;
-  font-size: 1.5rem;
+  font-size: 1.5vw;
 }
 
 .content {
