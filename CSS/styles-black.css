@@ -48,11 +48,12 @@ p {
 
 .navbar{
   z-index: 2000;
+  align-items: center;
 }
 
 .navbar-logo {
-  max-width: 100px;
-  height: auto;
+  width: auto;
+  margin: 0 auto;
 }
 
 #dl {
