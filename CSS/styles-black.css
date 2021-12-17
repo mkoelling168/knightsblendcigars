@@ -65,6 +65,7 @@ p {
   text-align: center;
   padding-left: 5%;
   padding-right: 5%;
+  padding-top: 5%;
 }
 
 #rituals {
@@ -195,4 +196,10 @@ video {
   box-shadow: 0 0 8px 8px black;
   border-radius: 10px;
   border-width: thick;
+}
+
+#cigarlifeguy{
+  font-size: .75vw;
+  color: #BF9000;
+  text-align: right;
 }
